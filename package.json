@@ -1,18 +1,17 @@
 {
   "name": "xpl-api",
   "version": "0.1.0",
-  "description": "xpl-api",
-  "main": "hello-world-server.js",
+  "description": "NodeJS layer for XPL",
+  "main": "xpl-api.js",
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
   "repository": "",
   "keywords": [
     "Node.js",
-    "Eclipse",
-    "Nodeclipse"
+    "XPL"
   ],
-  "author": "",
+  "author": "Olivier Oeuillot",
   "license": "BSD",
   "readmeFilename": "README.md"
 }
