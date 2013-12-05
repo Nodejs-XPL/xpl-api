@@ -6,7 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
-  "repository": "",
+  "dependencies": {
+	  "underscore": "latest"
+  },
+  "repository": {
+	    "type": "git",
+	    "url": "git://github.com/oeuillot/xpl-api.git"
+  },
   "keywords": [
     "Node.js",
     "XPL"
