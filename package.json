@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
   "dependencies": {
-	  "underscore": "latest"
+	  "underscore": "latest",
+	  "process": "latest"
   },
   "repository": {
 	    "type": "git",
