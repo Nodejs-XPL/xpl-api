@@ -6,6 +6,11 @@ var Xpl=require("./lib/xpl-api");
 
 var xpl=new Xpl();
 
-xpl.wait(function(event) {
-	console.log("Receive event ", event);
+xpl.on("message", function(event, address) {
+	console.log("Receive event ", event, " from ", address);
+	
+});
+
+xpl.wait(function(error) {
+	console.log("Wait return ", error);
 });
