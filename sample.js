@@ -8,13 +8,17 @@ var xpl=new Xpl({
 	source: "nodejs-sample"
 });
 
-xpl.on("message", function(event, address) {
-	console.log("Receive event ", event, " from ", address);
+xpl.on("message", function(message) {
+	console.log("Receive message ", message);
 	
 });
 
+xpl.on("close", function() {
+	console.log("Receive close even");
+});
+
 xpl.bind(function(error) {
-	console.log("Wait return ", error);
+	console.log("Bind return ", error);
 });
 
 xpl.sendXplTrig({

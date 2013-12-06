@@ -1,11 +1,8 @@
 {
   "name": "xpl-api",
-  "version": "0.1.0",
-  "description": "NodeJS layer for XPL",
-  "main": "xpl-api.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
-  },
+  "version": "1.0.0",
+  "description": "Node JS layer for XPL",
+  "main": "./lib/xpl-api.js",
   "dependencies": {
 	  "underscore": "latest",
 	  "semaphore": "latest",
@@ -13,9 +10,11 @@
   },
   "keywords": [
     "Node.js",
+    "Node",
     "XPL"
   ],
   "author": "Olivier Oeuillot",
   "license": "BSD",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/oeuillot/xpl-api"
 }
