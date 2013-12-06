@@ -8,6 +8,7 @@
   },
   "dependencies": {
 	  "underscore": "latest",
+	  "semaphore": "latest",
 	  "process": "latest"
   },
   "repository": {
