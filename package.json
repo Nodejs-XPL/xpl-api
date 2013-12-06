@@ -11,10 +11,6 @@
 	  "semaphore": "latest",
 	  "process": "latest"
   },
-  "repository": {
-	    "type": "git",
-	    "url": "git://github.com/oeuillot/xpl-api.git"
-  },
   "keywords": [
     "Node.js",
     "XPL"
