@@ -28,7 +28,7 @@ xpl.bind(function(error) {
 
 Sending XPL messages :
 ```javascript
-var Xpl=require("./lib/xpl-api");
+var Xpl=require("xpl-api");
 
 var xpl=new Xpl({
 	source: "nodejs-sample"
@@ -38,6 +38,11 @@ xpl.sendXplTrig({
 	device: "temp1 0x90",
 	type: "temp",
 	current: 20.4
+});
+
+xpl.sendXplCmnd({
+	request: "on",
+	device: "x10"
 });
 ```
  
