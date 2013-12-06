@@ -13,7 +13,7 @@ xpl.on("message", function(event, address) {
 	
 });
 
-xpl.wait(function(error) {
+xpl.bind(function(error) {
 	console.log("Wait return ", error);
 });
 
