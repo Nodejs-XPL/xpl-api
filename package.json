@@ -1,6 +1,6 @@
 {
   "name": "xpl-api",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Node JS layer for XPL",
   "main": "./lib/xpl-api.js",
   "dependencies": {
@@ -9,8 +9,6 @@
 	  "commander": "latest"
   },
   "keywords": [
-    "Node.js",
-    "Node",
     "XPL"
   ],
   "repository": { "type": "git", "url": "https://github.com/oeuillot/xpl-api.git" },
