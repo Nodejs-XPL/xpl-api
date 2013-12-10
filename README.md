@@ -4,6 +4,10 @@
 
 XPL layer for nodejs
 
+## Installation
+
+    $ npm install xpl-api
+
 ## Usage
 
 Waiting for XPL messages :
