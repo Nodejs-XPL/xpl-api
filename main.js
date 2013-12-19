@@ -5,7 +5,8 @@
 var Xpl=require("./lib/xpl-api");
 
 var xpl=new Xpl({
-	source: "nodejs-sample"
+	source: "nodejs-sample",
+	xplLog: true
 });
 
 xpl.on("message", function(message) {

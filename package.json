@@ -1,6 +1,6 @@
 {
   "name": "xpl-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Node JS layer for XPL",
   "main": "./lib/xpl-api.js",
   "dependencies": {
