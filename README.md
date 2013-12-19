@@ -14,10 +14,7 @@ Waiting for XPL messages :
 ```javascript
 var Xpl=require("xpl-api");
 
-var xpl=new Xpl({
-	source: "nodejs-sample",
-	broadcastAddress: "192.168.X.Y" // <<< you must specify a correct IP
-});
+var xpl=new Xpl();
 
 xpl.on("message", function(message) {
 	console.log("Receive message ", message);
@@ -38,7 +35,8 @@ Sending XPL messages :
 var Xpl=require("xpl-api");
 
 var xpl=new Xpl({
-	source: "nodejs-sample"
+	source: "nodejs-sample",
+	broadcastAddress: "192.168.X.Y" // <<< you must specify a correct IP
 });
 
 xpl.sendXplTrig({
