@@ -14,7 +14,10 @@ Waiting for XPL messages :
 ```javascript
 var Xpl=require("xpl-api");
 
-var xpl=new Xpl();
+var xpl=new Xpl({
+	source: "nodejs-sample",
+	broadcastAddress: "192.168.X.Y" // <<< you must specify a correct IP
+});
 
 xpl.on("message", function(message) {
 	console.log("Receive message ", message);
