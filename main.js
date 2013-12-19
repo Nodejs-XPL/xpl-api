@@ -6,7 +6,8 @@ var Xpl=require("./lib/xpl-api");
 
 var xpl=new Xpl({
 	source: "nodejs-sample",
-	xplLog: true
+	xplLog: false,
+	broadcastAddress: "192.168.1.255"
 });
 
 xpl.on("message", function(message) {
