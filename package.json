@@ -1,13 +1,14 @@
 {
   "name": "xpl-api",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Node JS layer for XPL",
   "main": "./lib/xpl-api.js",
   "dependencies": {
     "commander": "~2.3",
     "serialport": "~1.4",
     "semaphore": "~1.0",
-    "underscore": "~1.6"
+    "underscore": "~1.6",
+    "async": "~0.8"
   },
   "keywords": [
     "XPL","nodejs"
