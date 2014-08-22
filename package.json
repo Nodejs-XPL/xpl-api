@@ -4,10 +4,10 @@
   "description": "Node JS layer for XPL",
   "main": "./lib/xpl-api.js",
   "dependencies": {
-    "commander": "latest",
-    "serialport": "latest",
-    "semaphore": "latest",
-    "underscore": "latest"
+    "commander": "~2.3",
+    "serialport": "~1.4",
+    "semaphore": "~1.0",
+    "underscore": "~1.6"
   },
   "keywords": [
     "XPL","nodejs"
