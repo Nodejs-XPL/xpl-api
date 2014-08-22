@@ -6,7 +6,8 @@
   "dependencies": {
     "commander": "latest",
     "serialport": "latest",
-    "semaphore": "latest"
+    "semaphore": "latest",
+    "underscore": "latest"
   },
   "keywords": [
     "XPL","nodejs"
