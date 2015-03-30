@@ -2,17 +2,16 @@
  * New node file
  */
 
-var Xpl=require("./lib/xpl-api");
+var Xpl = require("./lib/xpl-api");
 
-var xpl=new Xpl({
+var xpl = new Xpl({
 	source: "nodejs-sample",
-	xplLog: false,
-	broadcastAddress: "192.168.1.255"
+	xplLog: true
 });
 
 xpl.on("message", function(message) {
 	console.log("Receive message ", message);
-	
+
 });
 
 xpl.on("close", function() {
