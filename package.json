@@ -5,8 +5,8 @@
   "main": "./lib/xpl-api.js",
   "dependencies": {
   	"semaphore": "~1.0",
-    "underscore": "~1.6",
-    "async": "~0.8"
+    "async": "latest",
+    "debug": "latest"
   },
   "keywords": [
     "XPL","nodejs"
