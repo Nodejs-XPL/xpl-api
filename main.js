@@ -3,14 +3,16 @@
  */
 
 var Xpl = require("./lib/xpl-api");
+var commander = require('commander');
 
-var xpl = new Xpl({
-	source: "nodejs-sample",
-	xplLog: true
-});
+Xpl.fillCommander(commander);
+
+commander.parse(process.argv);
+
+var xpl = new Xpl(commander);
 
 xpl.on("message", function(message) {
-	console.log("Receive message ", message);
+//	console.log("Receive message ", message);
 
 });
 
