@@ -1,17 +1,17 @@
 {
   "name": "xpl-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Node JS layer for XPL",
   "main": "./lib/xpl-api.js",
   "dependencies": {
   	"semaphore": "~1.0",
-    "async": "latest",
-    "debug": "latest"
+    "async": "~1.5",
+    "debug": "~2.2"
   },
   "keywords": [
     "XPL","nodejs"
   ],
-  "repository": { "type": "git", "url": "https://github.com/oeuillot/xpl-api.git" },
+  "repository": { "type": "git", "url": "https://github.com/Nodejs-XPL/xpl-api.git" },
   "author": "Olivier Oeuillot",
   "license": "GPL",
   "readmeFilename": "README.md",
