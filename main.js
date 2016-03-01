@@ -11,16 +11,16 @@ commander.parse(process.argv);
 
 var xpl = new Xpl(commander);
 
-xpl.on("message", function(message) {
+xpl.on("message", (message) => {
 //	console.log("Receive message ", message);
 
 });
 
-xpl.on("close", function() {
+xpl.on("close", () => {
 	console.log("Receive close even");
 });
 
-xpl.bind(function(error) {
+xpl.bind((error) => {
 	console.log("Bind return ", error);
 });
 
